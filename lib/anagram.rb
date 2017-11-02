@@ -11,7 +11,7 @@ class Anagram
     tmp = @word.split("")
     tmp.sort!
     words.map!{|word| word.split("")}
-    binding.pry
+    
   end
 
 end
