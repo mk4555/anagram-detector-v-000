@@ -9,7 +9,7 @@ class Anagram
 
   def match(words)
     tmp = @word.split("").sort!.join #split self into letters and join
-    words.map{|word| word.split("").join} #split
+    words.map{|word| word.split("").sort!.join} #split
     binding.pry
   end
 
