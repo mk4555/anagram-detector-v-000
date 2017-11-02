@@ -11,5 +11,6 @@ class Anagram
     tmp.sort!
     words.each do |word|
       word.split("").sort == tmp
+    end
   end
 end
