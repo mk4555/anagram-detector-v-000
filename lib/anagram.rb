@@ -7,7 +7,10 @@ class Anagram
   end
 
   def match(words)
-    tmp = self.sort
+    tmp = self.split("")
+    tmp.sort!
     
+
+
   end
 end
