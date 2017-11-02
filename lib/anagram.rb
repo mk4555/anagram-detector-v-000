@@ -12,8 +12,12 @@ class Anagram
     tmp.sort!
     words.map!{|word| word.split("")}
     words.each do |word|
-      word == tmp
+      if word == tmp
+        return word.join
+      end
     end
+  end
+    
     binding.pry
   end
 end
