@@ -9,9 +9,9 @@ class Anagram
 
   def match(words)
     tmp = @word.split("").sort! #split self into letters
-    tmp.sort!
+    binding.pry
     words.map!{|word| word.split("")}
-    
+
   end
 
 end
