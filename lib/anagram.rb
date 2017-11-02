@@ -8,9 +8,8 @@ class Anagram
   end
 
   def match(words)
-    tmp = @word.split("").sort!.join #split self into letters ["a","d","e","i","p","r","s"]
-    binding.pry
-    words.map{|word| word.split("")} #split
+    tmp = @word.split("").sort!.join #split self into letters and join 
+    words.map{|word| word.split("").join} #split
   end
 
 end
