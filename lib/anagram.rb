@@ -12,7 +12,6 @@ class Anagram
     tmp.join!
     binding.pry
     words.map!{|word| word.split("")} #split
-
   end
 
 end
