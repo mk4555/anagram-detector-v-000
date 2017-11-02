@@ -10,6 +10,6 @@ class Anagram
   def match(words)
     tmp = @word.split("")
     tmp.sort!
-    
+    binding.pry
   end
 end
