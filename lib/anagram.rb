@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(words)
-    words.map{|word| word.split}
+    tmp = self.sort
+    
   end
 end
