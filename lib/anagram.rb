@@ -11,6 +11,9 @@ class Anagram
     tmp = @word.split("")
     tmp.sort!
     words.map!{|word| word.split("")}
+    words.each do |word|
+      word == tmp
+    end
     binding.pry
   end
 end
